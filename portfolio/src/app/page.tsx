@@ -29,12 +29,61 @@ export default function Home() {
         light.position.set(5, 5, 10);
         scene.add(light);
 
+        const pages = [
+            { title: "Home", info: "Welcome! Find a short intro and highlights.", color: "#ff9999" },
+            { title: "About", info: "Learn more about me and my skills.", color: "#99ff99" },
+            { title: "Projects", info: "Check out my work and side projects.", color: "#9999ff" },
+            { title: "Skills", info: "See what technologies I know.", color: "#ffcc66" },
+            { title: "Contact", info: "Get in touch with me easily.", color: "#cc66ff" },
+        ];
+
         const cards: THREE.Mesh[] = [];
-        const colors = [0xff0000, 0x00ff00, 0x0000ff, 0xffaa00, 0xaa00ff];
-        colors.forEach((color, i) => {
-            const geometry = new THREE.BoxGeometry(2, 1, 0.5);
-            const material = new THREE.MeshStandardMaterial({ color });
-            const cube = new THREE.Mesh(geometry, material);
+
+        pages.forEach((page, i) => {
+            // Canvas for front face
+            const canvas = document.createElement("canvas");
+            canvas.width = 512;
+            canvas.height = 256;
+            const ctx = canvas.getContext("2d")!;
+
+            // Fill background with the page color
+            ctx.fillStyle = page.color;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Draw text
+            ctx.fillStyle = "#000000"; // text color
+            ctx.font = "bold 36px Arial";
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.fillText(page.title, canvas.width / 2, 80);
+
+            ctx.font = "24px Arial";
+            const lines = page.info.match(/.{1,40}/g);
+            if (lines) {
+                lines.forEach((line, idx) => {
+                    ctx.fillText(line, canvas.width / 2, 140 + idx * 30);
+                });
+            }
+
+            const texture = new THREE.CanvasTexture(canvas);
+            texture.needsUpdate = true;
+
+            // Materials
+            const frontMaterial = new THREE.MeshStandardMaterial({ map: texture });
+            const sideMaterial = new THREE.MeshStandardMaterial({ color: page.color });
+
+            const materials = [
+                sideMaterial, // right
+                sideMaterial, // left
+                sideMaterial, // top
+                sideMaterial, // bottom
+                frontMaterial, // front with text
+                sideMaterial, // back
+            ];
+
+            const geometry = new THREE.BoxGeometry(2.5, 1.5, 0.5);
+            const cube = new THREE.Mesh(geometry, materials);
+
             cube.rotation.x = 0.4;
             cube.rotation.y = 0.2;
             cube.position.z = -i * 10;
