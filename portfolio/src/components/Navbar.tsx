@@ -18,7 +18,7 @@ export default function Navbar() {
         <nav className="bg-gray-900 text-white px-6 py-4">
             <div className="flex justify-between items-center">
                 {/* Logo/Brand */}
-                <div className="text-xl font-bold">MyApp</div>
+                <div className="text-xl font-bold">Portfolio</div>
 
                 {/* Desktop Navigation */}
                 <ul className="hidden md:flex space-x-6">
