@@ -24,12 +24,7 @@ export default function Navbar() {
                 <ul className="hidden md:flex space-x-6">
                     <li>
                         <Link href="/" className="hover:text-gray-400 transition-colors">
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/about" className="hover:text-gray-400 transition-colors">
-                            About
+                            About me
                         </Link>
                     </li>
                     <li>
