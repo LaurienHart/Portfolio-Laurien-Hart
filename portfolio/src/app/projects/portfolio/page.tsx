@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function portfolio() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -9,7 +7,7 @@ export default function portfolio() {
 
             {/* Intro */}
             <div className="mb-10">
-                <Image
+                <img
                     src="/fotos/homeportfolio.png"
                     alt="Home Portfolio"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function ThemaWebsite() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -30,7 +28,7 @@ export default function ThemaWebsite() {
                 <p className="text-gray-600 leading-relaxed mb-4">
                     In de homepagina heb ik een navbar en footer aangemaakt. Daarna heb ik er een tekst bij gezet.
                 </p>
-                <Image
+                <img
                     src="/fotos/website home aangepast.png"
                     alt="Homeversie"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
@@ -44,7 +42,7 @@ export default function ThemaWebsite() {
                     Hiervoor heb ik de functie &apos;cards&apos; gebruikt. Hier kan je foto&apos;s terugvinden van 300 verschillende
                     soorten Belgische kazen.
                 </p>
-                <Image
+                <img
                     src="/fotos/website kaas soorten.png"
                     alt="Soorten kaas"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
@@ -56,7 +54,7 @@ export default function ThemaWebsite() {
                 <p className="text-gray-600 leading-relaxed mb-4">
                     Bij &apos;recepten&apos; vind je 3 lekkere kaasrecepten terug. Op de pagina heb ik de functie &apos;carousel&apos; gebruikt.
                 </p>
-                <Image
+                <img
                     src="/fotos/Recepten website kaas.png"
                     alt="Recepten"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"

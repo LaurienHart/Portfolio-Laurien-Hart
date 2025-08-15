@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function gsm() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -9,7 +7,7 @@ export default function gsm() {
 
             {/* Intro */}
             <div className="mb-10">
-                <Image
+                <img
                     src="/fotos/homepageGSM.png"
                     alt="Homepagina GSM"
                     className="w-64 rounded-2xl shadow-md object-cover mb-4"

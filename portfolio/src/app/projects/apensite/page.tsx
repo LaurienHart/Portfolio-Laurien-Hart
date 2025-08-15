@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function apenSite() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -9,7 +7,7 @@ export default function apenSite() {
 
             {/* Intro */}
             <div className="mb-10">
-                <Image
+                <img
                     src="/fotos/homeapen.png"
                     alt="Home apen"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"

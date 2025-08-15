@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Website() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -33,7 +31,7 @@ export default function Website() {
                     Een volgende opdracht was het toevoegen van meerdere pagina&apos;s, zoals je
                     in onderstaande foto kan zien.
                 </p>
-                <Image
+                <img
                     src="/fotos/Websiteversie.jpg"
                     alt="Een versie van de site"
                     className="w-full rounded-2xl shadow-md object-cover"
@@ -47,7 +45,7 @@ export default function Website() {
                     feedback van de docent de navbar aangepast. Nadien nog aangevuld met een pagina voor
                     werkplekleren.
                 </p>
-                <Image
+                <img
                     src="/fotos/webstie navbar.png"
                     alt="Website Navbar"
                     className="w-full rounded-2xl shadow-md object-cover"

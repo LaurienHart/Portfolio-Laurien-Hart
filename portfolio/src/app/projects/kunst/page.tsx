@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function EindprojectWerkveld() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -14,7 +12,7 @@ export default function EindprojectWerkveld() {
                     voor een &quot;klant&quot; moeten ontwikkelen. Onze klant is de kunstacademie van
                     Mechelen.
                 </p>
-                <Image
+                <img
                     src="/fotos/kunstacademie.png"
                     alt="Home Kunstacademie"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"

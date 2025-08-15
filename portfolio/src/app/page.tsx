@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
     return (
         <div className="max-w-5xl mx-auto py-20 px-6">
@@ -8,7 +6,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-10 items-center">
                 {/* Profielfoto */}
                 <div>
-                    <Image
+                    <img
                         src="/Profielfoto.jpg"
                         alt="Profielfoto"
                         className="w-full rounded-2xl shadow-lg object-cover"
