@@ -24,12 +24,12 @@ export default function Navbar() {
                 <ul className="hidden md:flex space-x-6">
                     <li>
                         <Link href="/" className="hover:text-gray-400 transition-colors">
-                            About me
+                            Over Mij
                         </Link>
                     </li>
                     <li>
                         <Link href="/projects" className="hover:text-gray-400 transition-colors">
-                            Projects
+                            Projecten
                         </Link>
                     </li>
                     <li>
@@ -75,16 +75,7 @@ export default function Navbar() {
                 <ul className="pt-4 pb-2 space-y-2">
                     <li>
                         <Link href="/" className="block py-2 px-4 hover:bg-gray-800 rounded transition-colors" onClick={closeMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            href="/about"
-                            className="block py-2 px-4 hover:bg-gray-800 rounded transition-colors"
-                            onClick={closeMenu}
-                        >
-                            About
+                            Over Mij
                         </Link>
                     </li>
                     <li>
@@ -93,7 +84,7 @@ export default function Navbar() {
                             className="block py-2 px-4 hover:bg-gray-800 rounded transition-colors"
                             onClick={closeMenu}
                         >
-                            Projects
+                            Projecten
                         </Link>
                     </li>
                     <li>
