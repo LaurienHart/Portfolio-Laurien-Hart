@@ -15,7 +15,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="bg-gray-900 text-white px-6 py-4">
+        <nav className="bg-indigo-900 text-white px-6 py-4">
             <div className="flex justify-between items-center">
                 {/* Logo/Brand */}
                 <div className="text-xl font-bold">Portfolio</div>
