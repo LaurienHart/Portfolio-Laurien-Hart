@@ -29,7 +29,7 @@ export default function Skills() {
                 {skills.map(({ name, icon: Icon }, index) => (
                     <div
                         key={index}
-                        className="p-6 rounded-2xl shadow-md bg-indigo-100hover:shadow-lg transition flex items-center justify-between"
+                        className="p-6 rounded-2xl shadow-md bg-indigo-100 hover:shadow-lg transition flex items-center justify-between"
                     >
                         <p className="text-lg font-semibold text-gray-800">{name}</p>
                         <Icon className="w-6 h-6 text-gray-500" />
