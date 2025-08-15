@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ThemaWebsite() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -14,7 +16,7 @@ export default function ThemaWebsite() {
             {/* Hoofdpagina's */}
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                    De website bestaat uit 3 hoofdpagina's:
+                    De website bestaat uit 3 hoofdpagina&apos;s:
                 </p>
                 <ol className="list-decimal list-inside text-gray-600 mb-4">
                     <li>Home</li>
@@ -28,7 +30,7 @@ export default function ThemaWebsite() {
                 <p className="text-gray-600 leading-relaxed mb-4">
                     In de homepagina heb ik een navbar en footer aangemaakt. Daarna heb ik er een tekst bij gezet.
                 </p>
-                <img
+                <Image
                     src="/fotos/website home aangepast.png"
                     alt="Homeversie"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
@@ -38,11 +40,11 @@ export default function ThemaWebsite() {
             {/* Soorten kaas */}
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                    Op de pagina 'soorten kaas' heb ik deze ingedeeld in 5 verschillende pagina's; 1 voor elke soort.
+                    Op de pagina 'soorten kaas' heb ik deze ingedeeld in 5 verschillende pagina&apos;s; 1 voor elke soort.
                     Hiervoor heb ik de functie 'cards' gebruikt. Hier kan je foto's terugvinden van 300 verschillende
                     soorten Belgische kazen.
                 </p>
-                <img
+                <Image
                     src="/fotos/website kaas soorten.png"
                     alt="Soorten kaas"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
@@ -54,7 +56,7 @@ export default function ThemaWebsite() {
                 <p className="text-gray-600 leading-relaxed mb-4">
                     Bij 'recepten' vind je 3 lekkere kaasrecepten terug. Op de pagina heb ik de functie 'carousel' gebruikt.
                 </p>
-                <img
+                <Image
                     src="/fotos/Recepten website kaas.png"
                     alt="Recepten"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"

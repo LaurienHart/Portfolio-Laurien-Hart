@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function EindprojectMarvel() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -13,7 +15,7 @@ export default function EindprojectMarvel() {
                     overzicht van alle films en series die uitgekomen zijn. De styling van
                     de site werd met Bootstrap gemaakt.
                 </p>
-                <img
+                <Image
                     src="/fotos/homemarvel.png"
                     alt="Home Marvel"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
@@ -27,7 +29,7 @@ export default function EindprojectMarvel() {
                     zaken. Op de foto zie je de filtering van de films maar is ook
                     beschikbaar bij de series.
                 </p>
-                <img
+                <Image
                     src="/fotos/filter.png"
                     alt="Filter"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
@@ -40,7 +42,7 @@ export default function EindprojectMarvel() {
                     Ook leuk is de quiz met 20 vragen die afwisselen zodat je steeds een
                     andere quiz krijgt.
                 </p>
-                <img
+                <Image
                     src="/fotos/quiz.png"
                     alt="Quiz"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"

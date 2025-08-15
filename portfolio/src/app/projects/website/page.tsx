@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Website() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -20,7 +22,7 @@ export default function Website() {
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed">
                     De allereerste versie van de website was heel simpel. Daar had ik de
-                    pagina's 'Over mij' en 'Mijn CV'. Toen hebben we een stylesheet gebruikt
+                    pagina&apos;s 'Over mij' en 'Mijn CV'. Toen hebben we een stylesheet gebruikt
                     van het internet. In een volgende versie heb ik er zelf een gemaakt.
                 </p>
             </div>
@@ -28,10 +30,10 @@ export default function Website() {
             {/* Multiple Pages */}
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                    Een volgende opdracht was het toevoegen van meerdere pagina's, zoals je
+                    Een volgende opdracht was het toevoegen van meerdere pagina&apos;s, zoals je
                     in onderstaande foto kan zien.
                 </p>
-                <img
+                <Image
                     src="/fotos/Websiteversie.jpg"
                     alt="Een versie van de site"
                     className="w-full rounded-2xl shadow-md object-cover"
@@ -45,7 +47,7 @@ export default function Website() {
                     feedback van de docent de navbar aangepast. Nadien nog aangevuld met een pagina voor
                     werkplekleren.
                 </p>
-                <img
+                <Image
                     src="/fotos/webstie navbar.png"
                     alt="Website Navbar"
                     className="w-full rounded-2xl shadow-md object-cover"

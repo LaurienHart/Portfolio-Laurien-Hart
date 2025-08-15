@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function EindprojectWerkveld() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -9,10 +11,10 @@ export default function EindprojectWerkveld() {
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
                     Dit is een groepsproject waarmee we met 4 personen een webapplicatie
-                    voor een "klant" moeten ontwikkelen. Onze klant is de kunstacademie van
+                    voor een 'klant' moeten ontwikkelen. Onze klant is de kunstacademie van
                     Mechelen.
                 </p>
-                <img
+                <Image
                     src="/fotos/kunstacademie.png"
                     alt="Home Kunstacademie"
                     className="w-full rounded-2xl shadow-md object-cover mb-4"
