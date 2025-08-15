@@ -56,5 +56,5 @@ export default function EindprojectWerkveld() {
                 </a>
             </div>
         </main>
-    );
+    )
 }
