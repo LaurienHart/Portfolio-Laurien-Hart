@@ -19,7 +19,7 @@ const projects = [
         link: "/projects/marvelsite",
     },
     {
-        title: "Kunstacademi",
+        title: "Kunstacademie",
         description: "Een groepsopdracht met sping/boot als eindwerk",
         link: "/projects/kunst",
     },
