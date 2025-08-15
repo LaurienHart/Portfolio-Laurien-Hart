@@ -34,6 +34,11 @@ const projects = [
         link: "/projects/starwars",
     },
     {
+        title: "GSM applicatie",
+        description: "Een app gemaakt voor de GSM",
+        link: "/projects/gsm",
+    },
+    {
         title: "Portfolio",
         description: "Met alle kenis die ik heb opgebouwed in de hogeschool deze portfolio gebouwd",
         link: "/projects/portfolio",
