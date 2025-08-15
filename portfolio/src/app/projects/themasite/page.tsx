@@ -40,8 +40,8 @@ export default function ThemaWebsite() {
             {/* Soorten kaas */}
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                    Op de pagina 'soorten kaas' heb ik deze ingedeeld in 5 verschillende pagina&apos;s; 1 voor elke soort.
-                    Hiervoor heb ik de functie 'cards' gebruikt. Hier kan je foto's terugvinden van 300 verschillende
+                    Op de pagina &apos;soorten kaas&apos; heb ik deze ingedeeld in 5 verschillende pagina&apos;s; 1 voor elke soort.
+                    Hiervoor heb ik de functie &apos;cards&apos; gebruikt. Hier kan je foto&apos;s terugvinden van 300 verschillende
                     soorten Belgische kazen.
                 </p>
                 <Image
@@ -54,7 +54,7 @@ export default function ThemaWebsite() {
             {/* Recepten */}
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                    Bij 'recepten' vind je 3 lekkere kaasrecepten terug. Op de pagina heb ik de functie 'carousel' gebruikt.
+                    Bij &apos;recepten&apos; vind je 3 lekkere kaasrecepten terug. Op de pagina heb ik de functie &apos;carousel&apos; gebruikt.
                 </p>
                 <Image
                     src="/fotos/Recepten website kaas.png"
@@ -66,9 +66,9 @@ export default function ThemaWebsite() {
             {/* Visit website */}
             <div className="mb-10 text-gray-600">
                 <p>
-                    <a href="/projects" className="text-indigo-300  hover:underline">Terug</a>
+                    <a href="/projects" className="text-indigo-300 hover:underline">Terug</a>
                 </p>
             </div>
         </main>
-    );
+    )
 }

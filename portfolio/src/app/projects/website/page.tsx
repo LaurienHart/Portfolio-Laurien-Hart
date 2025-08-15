@@ -22,7 +22,7 @@ export default function Website() {
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed">
                     De allereerste versie van de website was heel simpel. Daar had ik de
-                    pagina&apos;s 'Over mij' en 'Mijn CV'. Toen hebben we een stylesheet gebruikt
+                    pagina&apos;s &apos;Over mij&apos; en &apos;Mijn CV&apos;. Toen hebben we een stylesheet gebruikt
                     van het internet. In een volgende versie heb ik er zelf een gemaakt.
                 </p>
             </div>
