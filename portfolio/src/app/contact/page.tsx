@@ -5,8 +5,7 @@ export default function Contact() {
         <div className="max-w-3xl mx-auto py-20 px-6 text-center">
             <h1 className="text-4xl font-bold mb-6">Contact</h1>
             <p className="text-gray-600 mb-10">
-                I’d love to connect! Feel free to reach out to me through email or on my
-                professional profiles below.
+                Ik kijk ernaar uit om u te ontmoeten!
             </p>
 
             {/* Contact Options */}
