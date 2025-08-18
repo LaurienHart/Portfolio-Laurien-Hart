@@ -26,8 +26,8 @@ export default function About() {
                         en verder groeien.
                     </p>
                     <p className="text-gray-600 mb-8 leading-relaxed">
-                        Buiten het programmeren ben ik een grote Marvel-fan, klim ik graag op muren en zul je me vaak vinden terwijl
-                        ik in mijn vrije tijd aan het gamen ben.
+                        Buiten het programmeren ben ik een grote Marvel-fan, klim ik graag op muren en zul je me
+                        vaak in mijn vrije tijd zien gamen.
                     </p>
 
                     {/* CV Downloadknop */}
