@@ -22,7 +22,7 @@ export default function Skills() {
         <div className="max-w-4xl mx-auto py-20 px-6">
             <h1 className="text-4xl font-bold mb-8 text-center">Skills</h1>
             <p className="text-gray-600 text-center mb-12">
-                A list of programming languages, frameworks, and tools I am experienced with.
+                Programmeertalen, frameworks en tools waarmee ik ervaring heb:
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
