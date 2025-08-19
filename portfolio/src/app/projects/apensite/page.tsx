@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function apenSite() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -7,11 +9,34 @@ export default function apenSite() {
 
             {/* Intro */}
             <div className="mb-10">
-                <img
+                <p> Een volgend project was het maken van een website met javascript.
+                    Ik heb voor een educatieve apen-site gekozen waar je niet alleen info over apen kan
+                    terugvinden maar ook zelf onderzoek kan doen.
+                </p>
+                <Image
                     src="/fotos/homeapen.png"
+                    width={1000}
+                    height={1000}
                     alt="Home apen"
-                    className="w-full rounded-2xl shadow-md object-cover mb-4"
                 />
+                <br />
+                <p> Met een interactieve landkaart kan je zien waar deze apen leven.</p>
+                <Image
+                    src="/fotos/ApensiteWereldkaart.png"
+                    width={1000}
+                    height={1000}
+                    alt="Apensite wereldkaart"
+                />
+            </div>
+
+            {/* Tools */}
+            <div className="mb-10">
+                <h2>Tools/programma&apos;s:</h2>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+                <li>Firestore Database</li>
+                <li>Intellij</li>
             </div>
 
             {/* Back Link */}
