@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Website() {
     return (
         <div className="max-w-5xl mx-auto py-20 px-6">
@@ -9,12 +11,16 @@ export default function Website() {
                     Het eerste project van de opleiding graduaat programmeren was het maken
                     van een website, die kan dienen als een portfolio
                 </p>
-                <img src="/fotos/WebsiteEindversie.png" alt="Website Eindversie"/>
+                <Image
+                    src="/fotos/WebsiteEindversie.png"
+                    width={1000}
+                    height={1000}
+                    alt="Website Eindversie"/>
             </div>
 
             {/* Tools */}
             <div className="mb-10">
-                <h2>Tools/programma's:</h2>
+                <h2>Tools/programma&apos;s:</h2>
                 <li>HTML5</li>
                 <li>CSS</li>
                 <li>Visual Studio Code</li>
