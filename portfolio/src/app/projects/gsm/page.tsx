@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function gsm() {
     return (
         <main className="max-w-5xl mx-auto py-20 px-6">
@@ -7,11 +9,21 @@ export default function gsm() {
 
             {/* Intro */}
             <div className="mb-10">
-                <img
+                <p>Een ander project was het maken van een GSM app. Voor dit project heb ik het thema nintendo gekozen.</p>
+                <Image
                     src="/fotos/homepageGSM.png"
+                    width={300}
+                    height={600}
                     alt="Homepagina GSM"
-                    className="w-64 rounded-2xl shadow-md object-cover mb-4"
                 />
+            </div>
+
+            {/* Tools */}
+            <div className="mb-10">
+                <h2>Tools/programma&apos;s:</h2>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Android Studio</li>
             </div>
 
             {/* Back Link */}
