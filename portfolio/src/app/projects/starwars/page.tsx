@@ -1,17 +1,62 @@
+import Image from "next/image";
+
 export default function starWars() {
     return (
-        <main className="max-w-5xl mx-auto py-20 px-6">
+        <div className="max-w-5xl mx-auto py-20 px-6">
             <h2 className="text-4xl font-bold mb-12 text-center">
                 Eindopdracht Hybrid apps
             </h2>
 
             {/* Intro */}
             <div className="mb-10">
-                <img
+                <p>Dit project was het leukste project dat ik tot nu toe gemaakt heb. Ik moest voor Hybird apps een
+                    eidnopdracht maken. Hiervoor heb ik StarWars gekozen, dit is een map van verschillende StarWars planeten.
+                </p>
+                <Image
                     src="/fotos/Homepage Starwars.png"
                     alt="Homepage van StarWars"
-                    className="w-full rounded-2xl shadow-md object-cover mb-4"
+                    width={1000}
+                    height={1000}
                 />
+            </div>
+
+            {/* Tools */}
+            <div className="mb-10">
+                <h2>Tools/programma&apos;s:</h2>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>Next.js</li>
+                <li>Three.js</li>
+            </div>
+
+            {/* Demo */}
+            <div className="mb-10">
+                <p>
+                    Benieuwd!?! Hier is de link naar de {' '}
+                    <a
+                        href="https://laurien-hart-eindopdracht-hybrid.vercel.app/"
+                        className="text-indigo-600 hover:underline"
+                    >
+                        website.
+                    </a>
+                </p>
+                <p>Als je de onderstaande foto ziet op de site moet je even
+                    wachten omdat het nogal zwaar/groot is kan het even duren voor het ingeladen is.
+                </p>
+                <Image
+                    src="/fotos/loading screen starwars.png"
+                    alt="Homepage van StarWars"
+                    width={400}
+                    height={400}
+                />
+                <br/>
+                <p> Ik moest ook een topic presenteren. Die kan je
+                    <a
+                        href="https://github.com/LaurienHart/Laurien-Hart-hybrid-topic"
+                        className="text-indigo-600 hover:underline"
+                    > hier </a>
+                    vinden.
+                </p>
             </div>
 
             {/* Back Link */}
@@ -20,6 +65,6 @@ export default function starWars() {
                     Terug
                 </a>
             </div>
-        </main>
+        </div>
     )
 }
