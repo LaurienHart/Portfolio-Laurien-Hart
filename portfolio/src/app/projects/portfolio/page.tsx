@@ -1,17 +1,31 @@
+import Image from "next/image";
+
 export default function portfolio() {
     return (
-        <main className="max-w-5xl mx-auto py-20 px-6">
+        <div className="max-w-5xl mx-auto py-20 px-6">
             <h2 className="text-4xl font-bold mb-12 text-center">
-                Portfolio Website
+                Portfolio
             </h2>
 
             {/* Intro */}
             <div className="mb-10">
-                <img
+                <p> Dit project heb ik niet voor school gemaakt. Dit is gemaakt met de
+                    kennis die ik in de hogeschool heb op gedaan.
+                </p>
+                <Image
                     src="/fotos/homeportfolio.png"
-                    alt="Home Portfolio"
-                    className="w-full rounded-2xl shadow-md object-cover mb-4"
+                    width={1000}
+                    height={1000}
+                    alt="Home protfolio"
                 />
+            </div>
+
+            {/* Tools */}
+            <div className="mb-10">
+                <h2>Tools/programma&apos;s:</h2>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>Next.js</li>
             </div>
 
             {/* Back Link */}
@@ -20,6 +34,6 @@ export default function portfolio() {
                     Terug
                 </a>
             </div>
-        </main>
+        </div>
     )
 }
