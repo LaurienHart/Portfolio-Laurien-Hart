@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function apenSite() {
     return (
-        <main className="max-w-5xl mx-auto py-20 px-6">
+        <div className="max-w-5xl mx-auto py-20 px-6">
             <h2 className="text-4xl font-bold mb-12 text-center">
                 Educatieve apenwebsite
             </h2>
@@ -45,6 +45,6 @@ export default function apenSite() {
                     Terug
                 </a>
             </div>
-        </main>
+        </div>
     )
 }
