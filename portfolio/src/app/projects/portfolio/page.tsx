@@ -9,7 +9,7 @@ export default function portfolio() {
 
             {/* Intro */}
             <div className="mb-10">
-                <p>  Met de kennis die ik opgedaan heb ik de hogeschool en met zelfstudie heb ik deze site gemaakt. </p>
+                <p>  Met de kennis die ik opgedaan heb in de hogeschool en met zelfstudie heb ik deze site gemaakt. </p>
                 <Image
                     src="/fotos/homeportfolio.png"
                     width={1000}
