@@ -9,8 +9,9 @@ export default function starWars() {
 
             {/* Intro */}
             <div className="mb-10">
-                <p>Dit project was het leukste project dat ik tot nu toe gemaakt heb. Ik moest voor Hybird apps een
-                    eidnopdracht maken. Hiervoor heb ik StarWars gekozen, dit is een map van verschillende StarWars planeten.
+                <p>De eindopdracht voor het vak Hybrid apps vond ik persoonlijk het leukste
+                    project om te maken.  In het thema StarWars heb ik een universum gemaakt
+                    met verschillende planeten.  In dit universum kan je rondvliegen.
                 </p>
                 <Image
                     src="/fotos/Homepage Starwars.png"

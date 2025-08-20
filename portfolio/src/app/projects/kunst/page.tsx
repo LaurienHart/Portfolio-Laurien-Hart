@@ -10,9 +10,8 @@ export default function EindprojectWerkveld() {
             {/* Intro */}
             <div className="mb-10">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                    Dit is een groepsproject waarmee we met 4 personen een webapplicatie
-                    voor een &quot;klant&quot; moeten ontwikkelen. Onze klant is de kunstacademie van
-                    Mechelen.
+                    In dit groepsproject, samen met 3 medestudenten moesten we een webapplicatie
+                    ontwikkelen voor een fictieve klant.
                 </p>
                 <Image
                     src="/fotos/kunstacademie.png"

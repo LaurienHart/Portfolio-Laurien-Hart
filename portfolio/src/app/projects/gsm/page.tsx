@@ -9,7 +9,9 @@ export default function gsm() {
 
             {/* Intro */}
             <div className="mb-10">
-                <p>Een ander project was het maken van een GSM app. Voor dit project heb ik het thema nintendo gekozen.</p>
+                <p> Een andere opdracht was het ontwikkelen van een GSM app,
+                    waarbij ik gebruik moest maken van API. Hierin vond ik Nintendo terug.
+                    Met de app kan je een quiz doen, favorite toevoegen en 2 filmpjes kijken.</p>
                 <Image
                     src="/fotos/homepageGSM.png"
                     width={300}

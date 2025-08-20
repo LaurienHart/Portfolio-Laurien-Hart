@@ -15,16 +15,16 @@ export default function apenSite() {
                 </p>
                 <Image
                     src="/fotos/homeapen.png"
-                    width={1000}
-                    height={1000}
+                    width={500}
+                    height={500}
                     alt="Home apen"
                 />
                 <br />
                 <p> Met een interactieve landkaart kan je zien waar deze apen leven.</p>
                 <Image
                     src="/fotos/ApensiteWereldkaart.png"
-                    width={1000}
-                    height={1000}
+                    width={500}
+                    height={500}
                     alt="Apensite wereldkaart"
                 />
             </div>
