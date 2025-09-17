@@ -1,21 +1,35 @@
-import { Code, Database, Container, GitBranch, FileText, Coffee, Boxes } from "lucide-react";
+import {
+    Database,
+    Container,
+    GitBranch,
+    FileText,
+    Coffee,
+    Boxes,
+    Braces,
+    FileCode2,
+    Layers,
+    TerminalSquare
+} from "lucide-react";
 
 export default function Skills() {
+
     const skills = [
-        { name: "MS Office", icon: FileText },
+        { name: "JavaScript", icon: Braces },
+        { name: "TypeScript", icon: Braces },
         { name: "Java", icon: Coffee },
+        { name: "PHP", icon: TerminalSquare },
+        { name: "HTML5", icon: FileCode2 },
+        { name: "Bootstrap", icon: Layers },
+        { name: "CSS", icon: Layers },
         { name: "Spring Boot", icon: Boxes },
-        { name: "JavaScript", icon: Code },
-        { name: "HTML", icon: Code },
-        { name: "CSS", icon: Code },
-        { name: "Bootstrap", icon: Code },
+        { name: "React", icon: Boxes },
         { name: "SQL", icon: Database },
         { name: "PostgreSQL", icon: Database },
         { name: "NoSQL", icon: Database },
         { name: "MongoDB", icon: Database },
         { name: "Git", icon: GitBranch },
         { name: "Docker", icon: Container },
-        { name: "PHP", icon: Code },
+        { name: "MS Office", icon: FileText },
     ]
 
     return (
