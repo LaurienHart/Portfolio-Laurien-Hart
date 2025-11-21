@@ -8,12 +8,15 @@ import {
     Braces,
     FileCode2,
     Layers,
-    TerminalSquare
+    TerminalSquare,
+    Globe
 } from "lucide-react";
 
 export default function Skills() {
 
     const skills = [
+        { name: "Worldpress", icon: Globe },
+        { name: "C#", icon: Braces },
         { name: "JavaScript", icon: Braces },
         { name: "TypeScript", icon: Braces },
         { name: "Java", icon: Coffee },
